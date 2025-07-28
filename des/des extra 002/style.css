@@ -1,0 +1,61 @@
+@charset "UTF-*";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=My+Soul&family=Playwrite+VN+Guides&family=Seymour+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&family=My+Soul&family=Playwrite+VN+Guides&family=Seymour+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Honk&family=My+Soul&family=Playwrite+VN+Guides&family=Seymour+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #FDF500, #FF2D20 40%, #FFFFC9 ); 
+    height: 100%;
+    text-align: center;
+}
+main {
+    text-align: center;
+    background-color: rgb(255, 255, 207);
+    width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px rgb(46, 2, 2);
+}
+#teddie {
+    background-color: #f8f7a0;
+    font-family:'Bungee Spice';
+    text-decoration: underline;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.sub{
+    background-color: rgb(168, 168, 255);
+    font-family: 'Honk';
+    font-size: 2em;
+    font-weight: lighter    
+;
+}
+p {
+font-family: 'EB Garamond';
+font-weight: normal;
+
+}
+li,ul {
+    font-weight: lighter;
+    font-size: 1em;
+}
+    div > p {
+   display: none; 
+    }
+
+div:hover > p {
+  
+    font-family: 'Honk';
+    display: block ;
+      color: white;
+      background-color: #fffcaf;
+      text-align: center;
+}
+
+div:hover {
+    color: red;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Seymour+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Playwrite+VN+Guides&family=Seymour+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    height: 100%;
+    background-attachment: fixed;
+background-image: linear-gradient(to top, #000255,#7AE582, #368f8b);
+
+}
+
+main {
+    background-color: white;
+    width: 800px;
+padding: 10px;
+margin: auto;
+border-radius: 1px;
+box-shadow: 10px 10px 10px #000255;
+}
+
+h1 {
+    font-family: 'My soul';
+    font-weight: normal;
+    font-size: 3em;
+}
+h2 {
+     font-family: 'My soul';
+     font-weight: lighter;
+     font-size: 2em;
+}
+p {
+    font-family: 'Playwrite VN Guides';
+    font-weight: lighter;
+    font-size: 1em;
+}

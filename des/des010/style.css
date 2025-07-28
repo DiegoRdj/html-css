@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'nome';
+    src: url('fontes/idroid.otf')format(opentype);
+}
+
+ body {
+    background-color: lightgreen;
+    margin: 0px;
+}
+h1, h2 {
+    font-family:'nome';
+    
+  
+ }
+h1{
+    margin: 0px;
+    font-size: 2em;
+}
+.classe {
+    margin: 0px;
+}
+header{
+    display: block;
+    background-image: linear-gradient(to bottom, #09D85F, #025525);
+    text-align: center;
+    border-radius: auto;
+    margin: 0px;
+    
+
+}
+nav{
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > a:hover {
+    color: white;
+    display: inline;
+    background-color: rgba(88, 253, 143, 0.226);
+    
+}
+ main {
+    
+    background-color: white;
+    text-align: center;
+    border-radius: auto;
+ width: 850px;
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.507);
+ margin: auto;
+ padding: 0px;
+ border-radius: 10px 10px 10px 10px;
+}
+footer {
+    background-color: #025525;
+    margin: 0px;
+}
+footer > p {
+margin: 15px 0px 0px 0px; 
+color: white;
+text-align: center;
+text-decoration: none;
+font-weight: white;
+}
+.video {
+    background-color: #025525;
+ text-align: center;
+ border-radius: auto;
+ padding: 20px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 2em;
+}
+.t2 {
+    background-color: #42f38c42;
+    color: #025525;
+    text-align: justify;
+    font-size: 1.5em;
+    padding: 10px;
+}
+.t1 {
+    text-align: justify;
+    color: #025525;
+    padding: 10px;
+    
+}
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 20px 0px 0px 0px;
+}
+.sub {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: lighter;
+    color: white
+}
+.t3{
+border-radius: 10px 10px 0px 0px;
+}
+.t3,.t4, ul {
+    background-color: #069743;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 15px 15px 0px 15px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px 1px black;
+    
+}
+.t4, ul {
+    margin: 0px 15px 0px 15px;
+    background-color: #47ff93;
+    color: black;
+}
+ul {
+    padding: 20px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-decoration: underline;
+}
