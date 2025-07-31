@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Honk&family=My+Soul&family=Passion+One:wght@400;700;900&family=Playwrite+VN+Guides&family=Seymour+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Honk&family=My+Soul&family=Passion+One:wght@400;700;900&family=Playwrite+VN+Guides&family=Seymour+One&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    margin: auto;
+background-color:black ;
+color: white;
+text-align: center;
+border: 0px;
+font-family: 'Passion One';
+padding: 40px;
+
+}
+h1{
+    margin: 0px;
+    font-size: 3em;
+}
+p {
+    margin: 0px;
+    font-size: 1.5em;
+}
+div {
+padding: 50px 0px 50px 50px;
+font-family: 'Sriracha';
+}
+body {
+    margin: 0px;
+  
+}
+main {
+    padding: 50px;
+    text-align: justify;
+}
+#flor {
+    background-image: url('imagens/background001.jpg');
+    background-size: auto;
+    background-position: center right;
+    background-size: 100% 100%;
+    height: 40vh;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: 1px 1px 1px 0px  black;
+    height: 30vh;
+    
+
+}
+#papel {
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+    color: white;
+    background-attachment: fixed;
+    box-shadow: 1px 1px 1px 0px  black;
+    height: 30vh;
+      background-size: 100% 100%;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    font-weight: lighter;
+    font-size: 0.8em;
+    text-align: center;
+    text-decoration: none;
+}
+ a{
+    text-decoration: none;
+    color: rgb(126, 126, 126) ;
+}
+a:hover {
+    background-color: beige;
+    transition: 1s;
+    padding: 2px;
+    border-radius: 5px;
+}
+.t1 {
+    background-color: rgba(112, 112, 112, 0.521);
+    width: 240px;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+.t2 {
+    background-color: rgba(112, 112, 112, 0.521);
+    width: 240px;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
