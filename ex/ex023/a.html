@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela de População</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f6f8;
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 80%;
+        background: #fff;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    caption {
+        padding: 15px;
+        font-size: 1.5em;
+        font-weight: bold;
+        background: #4CAF50;
+        color: white;
+    }
+
+    thead {
+        background: #333;
+        color: white;
+    }
+
+    th, td {
+        padding: 12px 15px;
+        text-align: center;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tbody tr:hover {
+        background-color: #d6ffd6;
+        cursor: pointer;
+    }
+
+    th {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <caption>População de Alguns Países (2024)</caption>
+    <thead>
+        <tr>
+            <th>País</th>
+            <th>População</th>
+            <th>Crescimento (%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>China</td>
+            <td>1,41 bilhões</td>
+            <td>-0,2</td>
+        </tr>
+        <tr>
+            <td>Índia</td>
+            <td>1,43 bilhões</td>
+            <td>0,8</td>
+        </tr>
+        <tr>
+            <td>Estados Unidos</td>
+            <td>339 milhões</td>
+            <td>0,4</td>
+        </tr>
+        <tr>
+            <td>Brasil</td>
+            <td>214 milhões</td>
+            <td>0,6</td>
+        </tr>
+        <tr>
+            <td>Nigéria</td>
+            <td>223 milhões</td>
+            <td>2,5</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
