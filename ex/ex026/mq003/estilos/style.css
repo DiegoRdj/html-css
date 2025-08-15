@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@media all {
+    
+}
+ /*geral*/
+
+        
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+        width: 100vw;
+        height: 100vh;
+        background-color: palegoldenrod;
+        margin: 0px;
+        background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+     
+    
+}
+h1{
+    color: paleturquoise;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.521);
+    padding: 10px;
+    margin: 0px;
+}
+
+        /*retrato*/
+        @media screen and (orientation:portrait) {
+            body {
+    background:url("https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/hong-kong-drone-city.adapt_.945.1_0.jpg?w=1900&h=2375");
+   background-position: center ;
+    background-size: cover;
+}
+}
+
+        /*paisagem*/
+        @media screen and (orientation: landscape) {
+            
+     body { background: url("https://i.redd.it/wdakf9dunnya1.jpg");
+    
+    background-position: center;
+     background-size: cover;
+        }
+
+        }
