@@ -5,4 +5,5 @@
 body{
     background:url("https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/hong-kong-drone-city.adapt_.945.1_0.jpg?w=1900&h=2375");
    background-position: center ;
+    background-size: cover;
 }
