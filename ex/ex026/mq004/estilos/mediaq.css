@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/*outras telas*/
+
+/*ttpical Devicce BREakpoints 
+Pequenas telas 600px:  
+Celular: de 600 a 768px
+tablet: 768 a 992
+DEsktop:992 a 1200
+TV: 1200+
+*/
+
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    h1 {
+        text-shadow: none;
+        color: black;
+    }
+    main {
+        border: 2px solid black;
+    }
+    main::after{
+        content: 'Eu fiz o site';
+        border: 2px solid black;
+    }
+    #phone{display: none;}
+#tablet{display: none;}
+#print{display: block;}
+#pc{display: none;} 
+#tv{display: none;}
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+   body {
+    background-image: url("../imagens/back-tablet.jpg"); 
+   } 
+   #phone{display: none;}
+#tablet{display: block;}
+#print{display: none;}
+#pc{display: none;} 
+#tv{display: none;}
+} 
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+body {
+ background-image: url("../imagens/back-pc.jpg");
+}
+main {
+    width: 768px;
+    
+}
+    #phone{display: none;}
+#tablet{display: none;}
+#print{display: none;}
+#pc{display: block;} 
+#tv{display: none;}
+}
+@media screen and (min-width:1200px) {
+
+    body {
+        background-image: url("../imagens/back-tv.jpg");
+    }
+    main{
+        width: 1200px;
+    }
+    #phone{display: none;}
+#tablet{display: none;}
+#print{display: none;}
+#pc{display: none;} 
+#tv{display: block;}
+}
+    
