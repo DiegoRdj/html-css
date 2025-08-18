@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*ttpical Devicce BREakpoints 
+Pequenas telas 600px:  
+Celular: de 600 a 768px
+tablet: 768 a 992
+DEsktop:992 a 1200
+TV: 1200+
+*/
+
+@media screen and (min-width: 768px) {
+#tres {
+    display: none;
+}
+menu {
+    display: block;
+}
+menu > ul > li {
+    display: inline-block;
+    width: 15%;
+}
+main {
+    width: 768px;
+}
+}
