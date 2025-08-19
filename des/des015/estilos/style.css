@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -24,22 +25,117 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 20px;
+    height: 350px;
+    padding-right: 10px;
 }
     
 
 div.imagem {
 
-    width: 250px;
-    height: 200px;
-    display: flex;
+    width: 330px;
+    height: 350px;
+    display: inline-flex;
+    
+}
+img {
+    border-radius: 20px 0px 0px 20px;
+    height: 350px;
+    width: 450px;
 }
 div#form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #login {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+h1 {
+    text-align: center;
+    padding-inline-start: 10px;
+    padding: 10px;
+}
+.em {
+    background-color: #4D8B98;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.se {
+    background-color: #4D8B98;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.enviar {
+    
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding: 10px 230px;
+    margin-top: 5px;
+    background-color: #4D8B98;
+    border-radius: 10px;
+    border: 0px none #4D8B98;
+    color: white;
+    font-size: 1.0em;
+}
+.esq {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #4D8B98;
+    color: #4D8B98;
+}
+#um {
+    height: 20px;
+}
+#dois {
+    height: 24px;
+    
+}
+#is {
+ width: 350px;
+ margin-left:10px ;
+ height: 30px;
+ border-radius: 10px;
+ border-radius: 10px;
+ background-color: #7feaff6b;
+}
+#im {
+ width: 350px;
+ margin-left:10px ;
+ height: 30px;
+ border-radius: 10px;
+ background-color: #7feaff6b;
+}
+.esq:hover {
+    background-color: #4d8b9842;
+}
+.enviar:hover {
+    background-color: #5f2f83cc;
+    
+}
+p {
+    padding: 10px;
 }
