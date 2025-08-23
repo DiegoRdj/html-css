@@ -47,6 +47,7 @@ a {
     background-color: #5E2F83;
     color: whitesmoke;
     transition: 0.5s;
+    width: 50%;
 }
 a:hover {
     background-color: #4D8B98;
