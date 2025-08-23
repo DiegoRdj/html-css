@@ -47,7 +47,7 @@ a {
     background-color: #5E2F83;
     color: whitesmoke;
     transition: 0.5s;
-    width: 50%;
+    
     margin: auto;
 }
 a:hover {
@@ -56,17 +56,14 @@ a:hover {
     border-radius: 20px;
     transition: 0.5s;
 }
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 0.8;
-    padding: 5px;
-}
+
 img{
     padding-top: 15px;
     height: 120px;
     display: block;
     margin: auto;
+
+}
+main > p {
 
 }
