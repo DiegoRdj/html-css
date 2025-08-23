@@ -10,8 +10,7 @@ html, body {
     background-attachment: fixed;
     width: 100vw;
     height: 100vh;
-   
-    
+    margin: auto;
 }
 header {
     background-color: honeydew;
@@ -56,13 +55,6 @@ a:hover {
     transition: 0.5s;
 }
 
-img{
-    padding-top: 15px;
-    height: 120px;
-    display: block;
-    margin: auto;
-
-}
 main > p {
 padding-top: 28px;
 color: #5E2F83;
