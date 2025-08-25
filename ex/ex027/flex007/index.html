@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox </title>
+    <style>
+        div.conteiner {
+            background-color: lightcoral;
+            display: flex;
+            flex-flow: row wrap;
+            
+            
+        }
+        div.itemA {
+            background-color: paleturquoise;
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+        #i1 {
+            order: 0 ;
+        }
+        #i2 {
+            order: -2;
+        }
+        #i3 {
+            order: 4 ;
+        }
+        #i4 {
+            order:7  ;
+        }
+        #i5 {
+            order: 2 ;
+        }
+        #i6 {
+            order:0 ;
+        }
+        #i7 {
+            order: -4 ;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div class="conteiner">
+        <div class="itemA" id="i1">A</div>
+        <div class="itemA" id="i2">B</div>
+        <div class="itemA" id="i3">C</div>
+        <div class="itemA" id="i4">D</div>
+        <div class="itemA" id="i5">E</div>
+        <div class="itemA" id="i6">F</div>
+        <div class="itemA" id="i7">G</div>
+    </div>
+</body>
+</html>
