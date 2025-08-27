@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Flex Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#"> Opção 1</a>
+            <a href="#"> Opção 2</a>
+            <a href="#"> Opção 3</a>
+            <a href="#"> Opção 4</a>
+            <a href="#"> Opção 5</a>
+            <a href="#"> Opção 6</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Teste de flex box</h2>
+        Flexbox (ou Flexible Box Layout) é um modelo de layout do CSS feito pra facilitar a organização dos elementos dentro de um contêiner, principalmente quando você quer alinhar coisas em linha ou em coluna sem ficar sofrendo com float, inline-block ou position. <br>
+
+Imagina que você tem uma caixa (container) e dentro dela vários itens (flex items).
+Quando você coloca display: flex; no container, todos os itens dentro dele passam a obedecer as regras do flexbox.<br>
+
+Principais conceitos:<br>
+
+🔹 Container (pai)<br>
+É o elemento que recebe display: flex;. Ele ganha controle sobre os filhos.<br>
+
+🔹 Itens (filhos)<br>
+São os elementos dentro do container, que vão ser posicionados e dimensionados automaticamente pelo flexbox.<br>
+
+Propriedades principais do container:<br>
+
+display: flex; → ativa o flexbox.<br>
+
+flex-direction: → define a direção dos itens: <br>
+
+row (padrão, em linha), <br>
+
+column (em coluna), <br>
+
+row-reverse / column-reverse. <br>
+
+justify-content: → alinha os itens no eixo principal (horizontal se for row, vertical se for column). <br>
+
+exemplos: flex-start, center, flex-end, space-between, space-around, space-evenly. <br>
+
+align-items: → alinha os itens no eixo cruzado (perpendicular ao principal).<br>
+
+exemplos: flex-start, center, flex-end, stretch.<br>
+
+flex-wrap: → quebra linha quando os itens não cabem (wrap).<br>
+
+Propriedades principais dos itens:<br>
+
+flex-grow: → controla se o item vai crescer pra ocupar espaço sobrando.<br>
+
+flex-shrink: → controla se o item vai diminuir quando faltar espaço.<br>
+
+flex-basis: → define o tamanho inicial do item.<br>
+
+(ou usa o atalho flex: grow shrink basis;)<br>
+
+align-self: → sobrescreve o align-items só para aquele item.<br>
+    </main>
+</body>
+</html>
