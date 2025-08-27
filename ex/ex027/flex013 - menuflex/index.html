@@ -20,52 +20,56 @@
     </header>
     <main>
         <h2>Teste de flex box</h2>
-        Flexbox (ou Flexible Box Layout) é um modelo de layout do CSS feito pra facilitar a organização dos elementos dentro de um contêiner, principalmente quando você quer alinhar coisas em linha ou em coluna sem ficar sofrendo com float, inline-block ou position. <br>
+        <p>Flexbox (ou Flexible Box Layout) é um modelo de layout do CSS feito pra facilitar a organização dos elementos dentro de um contêiner, principalmente quando você quer alinhar coisas em linha ou em coluna sem ficar sofrendo com float, inline-block ou position. <br></p>
 
-Imagina que você tem uma caixa (container) e dentro dela vários itens (flex items).
-Quando você coloca display: flex; no container, todos os itens dentro dele passam a obedecer as regras do flexbox.<br>
+<p>
+    Imagina que você tem uma caixa (container) e dentro dela vários itens (flex items).
+    Quando você coloca display: flex; no container, todos os itens dentro dele passam a obedecer as regras do flexbox.<br>
+</p>
 
-Principais conceitos:<br>
+<h2>Principais conceitos:<br></h2>
 
-🔹 Container (pai)<br>
-É o elemento que recebe display: flex;. Ele ganha controle sobre os filhos.<br>
+<h3>🔹 Container (pai)<br></h3>
+<p>É o elemento que recebe display: flex;. Ele ganha controle sobre os filhos.<br></p>
 
-🔹 Itens (filhos)<br>
-São os elementos dentro do container, que vão ser posicionados e dimensionados automaticamente pelo flexbox.<br>
+<h3>🔹 Itens (filhos)<br></h3>
+<p>São os elementos dentro do container, que vão ser posicionados e dimensionados automaticamente pelo flexbox.<br></p>
 
-Propriedades principais do container:<br>
+<h3>Propriedades principais do container:<br></h3>
 
-display: flex; → ativa o flexbox.<br>
+<p>display: flex; → ativa o flexbox.<br></p>
 
-flex-direction: → define a direção dos itens: <br>
+<p>flex-direction: → define a direção dos itens: <br></p>
 
-row (padrão, em linha), <br>
-
-column (em coluna), <br>
-
-row-reverse / column-reverse. <br>
-
-justify-content: → alinha os itens no eixo principal (horizontal se for row, vertical se for column). <br>
-
-exemplos: flex-start, center, flex-end, space-between, space-around, space-evenly. <br>
-
-align-items: → alinha os itens no eixo cruzado (perpendicular ao principal).<br>
-
-exemplos: flex-start, center, flex-end, stretch.<br>
-
-flex-wrap: → quebra linha quando os itens não cabem (wrap).<br>
-
-Propriedades principais dos itens:<br>
-
-flex-grow: → controla se o item vai crescer pra ocupar espaço sobrando.<br>
-
-flex-shrink: → controla se o item vai diminuir quando faltar espaço.<br>
-
-flex-basis: → define o tamanho inicial do item.<br>
-
-(ou usa o atalho flex: grow shrink basis;)<br>
-
-align-self: → sobrescreve o align-items só para aquele item.<br>
+<p>
+    row (padrão, em linha), <br>
+    
+    column (em coluna), <br>
+    
+    row-reverse / column-reverse. <br>
+    
+    justify-content: → alinha os itens no eixo principal (horizontal se for row, vertical se for column). <br>
+    
+    exemplos: flex-start, center, flex-end, space-between, space-around, space-evenly. <br>
+    
+    align-items: → alinha os itens no eixo cruzado (perpendicular ao principal).<br>
+    
+    exemplos: flex-start, center, flex-end, stretch.<br>
+    
+    flex-wrap: → quebra linha quando os itens não cabem (wrap).<br>
+    
+    Propriedades principais dos itens:<br>
+    
+    flex-grow: → controla se o item vai crescer pra ocupar espaço sobrando.<br>
+    
+    flex-shrink: → controla se o item vai diminuir quando faltar espaço.<br>
+    
+    flex-basis: → define o tamanho inicial do item.<br>
+    
+    (ou usa o atalho flex: grow shrink basis;)<br>
+    
+    align-self: → sobrescreve o align-items só para aquele item.<br>
+</p>
     </main>
 </body>
 </html>
