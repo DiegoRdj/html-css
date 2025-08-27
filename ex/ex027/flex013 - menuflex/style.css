@@ -10,23 +10,25 @@ body {
     font-size: 1em;
     background-color: lightskyblue;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 header {
     background-color: paleturquoise;
     padding: 10px;
+    
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
 h1 {
-    border: 1px dotted black;
+     /*border: 1px dotted black;*/
     flex: 0 0 200px;
+    text-shadow: 1px 0px 0px black;
     
 }
 nav {
-    border: 1px dotted black;
+     /*border: 1px dotted black;*/
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -40,12 +42,14 @@ a {
     text-decoration: none;
     text-align: center;
      transition: 0.5s;
-     flex: 1 1 auto;
+     
+     cursor: alias;
 }
-a:hover {
+a:hover{
     color: blue;
     background-color: white;
     transition: 0.5s;
+    
 }
 main {
     background-color: lightblue;
