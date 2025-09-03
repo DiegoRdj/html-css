@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        div.container {
+            border: 3px solid paleturquoise;
+            display: grid;
+            height: 250px;
+            grid-template-columns: auto auto auto ; /*3 auto para criar 3 colunas*/
+            grid-auto-rows: auto;
+             /*3 auto para criar 3 colunas*/
+             gap: 10px;
+             align-items: normal ;
+             align-content:   normal;
+             justify-content:  normal;
+             justify-items: normal ;
+            
+        }
+        div.item{
+            border: 3px solid palevioletred;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+    </div>
+</body>
+</html>
