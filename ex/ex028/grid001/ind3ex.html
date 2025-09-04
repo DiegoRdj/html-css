@@ -9,11 +9,15 @@
             border: 3px solid paleturquoise;
             display: grid;
             height: 250px;
-            grid-template-columns: auto auto
-            auto; /*3 auto para criar 3 colunas*/
-            grid-template-rows: auto auto auto;
+            grid-template-columns: auto auto auto ; /*3 auto para criar 3 colunas*/
+            grid-auto-rows: auto;
              /*3 auto para criar 3 colunas*/
-             gap: 5px;
+             gap: 10px;
+             align-items: normal ;
+             align-content:   normal;
+             justify-content:  normal;
+             justify-items: normal ;
+            
         }
         div.item{
             border: 3px solid palevioletred;
@@ -30,6 +34,7 @@
         <div class="item">E</div>
         <div class="item">F</div>
         <div class="item">G</div>
+        <div class="item">H</div>
     </div>
 </body>
 </html>
