@@ -1,19 +1,22 @@
 @charset "UTF-8";
 
+
+
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    
 }
 body {
     background-color: #F3E5D8;
     height: 100vh;
     width: 100vw;
+    
 }
 main {
     display: flex;
-    
-    height: 100vh;
+    margin: 30px;
     justify-content: center;
     align-items: center;
     
@@ -38,22 +41,20 @@ img {
     align-self: center;
     display: block;
     border-radius: 25px;
-   object-fit: cover;
    overflow: hidden;
    align-items: center;
 justify-content: center;
 }
 ul {
   display: flex;
-  flex-direction: column; /* deixa os itens um embaixo do outro */
-  gap: 10px;              /* espaço entre os itens */
-     /* dá recuo */
+  flex-direction: column; 
+  gap: 10px;         
      padding: 25px;
 }
 
 li {
-  list-style: disc;       /* bolinha normal */
-  display: list-item; /* volta pro padrão de lista */
+  list-style: disc;       
+  display: list-item; 
 
 } 
 .problematica {
@@ -62,11 +63,19 @@ flex-flow: column wrap;
 }
 .ol {
      display: flex;
-  flex-direction: column; /* deixa os itens um embaixo do outro */
-  gap: 10px;              /* espaço entre os itens */
-     /* dá recuo */
+  flex-direction: column; 
+  gap: 10px;       
      padding: 25px;
 }
 .ol > li{
     list-style: decimal;
 }
+.linha{
+    display: flex;
+  justify-content: space-around; /* joga um pra esquerda e outro pra direita */
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc; /* se quiser a linha embaixo */
+  padding: 8px 0;
+  font-size: 16px;
+}
+
