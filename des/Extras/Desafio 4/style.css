@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
 background-color: #0D1A2D;
@@ -15,43 +16,92 @@ main {
     display: flex;
       justify-content: center;
     justify-items: center;
-    height: 100vh;
+    
     
 }
 #container {
   width: 50%;
   background-color: #14273E;
-  margin: 50px;
+  margin: 30px;
   flex-flow: column wrap;
   border-radius: 50px;
-  height: auto;
+  padding: 25px;
+  
 }
 .img1 {
     height: auto;
     width: 100%;
-    border-radius: 50px;
-    padding: 20px;
+    border-radius: 25px;
+    
+    
 }
 #caixa {
     padding: 10px;
 }
 h1 {
     color: white;
+    padding: 5px;
 }
 h2 {
     color: #334963;
     font-weight: normal;
 }
+.ed {
+    display: flex;
+    justify-content: space-between;
+}
 .eth {
     color: #4AB9C2;
-    
+    padding: 10px 30px;
+    font-weight: bolder;
 }
 .days {
     color: #839EBF;
+    padding: 10px 30px;
+    font-weight: bolder;
+
+}
+.todo {
+    display: flex;
+    margin: 5px;
+}
+.todo > span {
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+.cara{
+    height: 6vh;
+    border: 2px solid white;
+    border-radius: 50%;
+   
 }
 .c {
 color: #839EBF;
+padding: 10px;
 }
 .j {
  color: white;
 }
+
+
+@media screen and (max-width:768px) {
+   #container  {
+        width: 80%;
+        
+    }
+}
+@media screen and (min-width:992px) {
+    #container {
+        width: 30%;
+    }
+}
+/*outras telas*/
+
+/*ttpical Devicce BREakpoints 
+Pequenas telas 600px:  
+Celular: de 600 a 768px
+tablet: 768 a 992
+DEsktop:992 a 1200
+TV: 1200+
+*/
