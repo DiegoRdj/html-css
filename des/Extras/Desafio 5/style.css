@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #1AA1AD;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container {
+    justify-content: center;
+    align-items: center;
+}
