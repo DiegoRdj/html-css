@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
-    background-color: #E1E9FF;
+    background-color: #E1E9FF; 
 }
 main {
     display: flex;
