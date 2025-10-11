@@ -4,4 +4,46 @@
 margin: 0px;
 padding: 0px;
 box-sizing: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #D6E1F0;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    padding: 25px 25px;
+    border-radius: 25px;
+}
+div.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ img {
+    width: 100%;
+    border-radius: 25px;
+ }
+
+h1 {
+  color: #1f3251;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 5px;
+    line-height: 1.4em;
+}
+
+p {
+  color: #7b879d;
+  font-size: 1em;
+  line-height: 1.4em;
+  margin:15px;
 }
