@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        div.container{
+            border: 3px solid blue;
+            display: grid;
+            height: 250px;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto ;
+            gap: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div.item{
+            border: 3px solid red;
+            padding: 5px;
+            transition: 0.5s;
+             display: flex;
+     justify-content: center;
+    align-items: center;
+        }
+        .item:hover {
+            background-color: paleturquoise;
+            color: black;
+            transition: 0.5s;
+            border-radius: 50px;
+            cursor: pointer;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"><a href="">A</a></div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        
+    </div>
+</body>
+</html>
